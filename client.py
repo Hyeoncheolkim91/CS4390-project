@@ -2,7 +2,7 @@ import socket
 import pickle
 import sys
 
-HOST = '10.21.76.82'
+HOST = ''
 PORT = 65432
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
