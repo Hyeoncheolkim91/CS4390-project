@@ -2,7 +2,8 @@ import socket
 import pickle
 import sys
 
-HOST = ''
+HOSTNAME = socket.gethostname()
+HOST = socket.gethostbyname(HOSTNAME)
 PORT = 65432
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
