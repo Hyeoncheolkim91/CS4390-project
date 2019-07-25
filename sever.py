@@ -2,7 +2,8 @@ import socket
 import os
 import pickle
 
-
+HOSTNAME = socket.gethostname()
+HOST = socket.gethostbyname(HOSTNAME)
 files = []
 for r, d, f in os.walk(os.path.normpath('C:\\Users\\compa\\OneDrive\\바탕 화면\\opentutorials')):
     for file in f:
@@ -10,7 +11,7 @@ for r, d, f in os.walk(os.path.normpath('C:\\Users\\compa\\OneDrive\\바탕 화�
             files.append(file)
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mysock.bind(("", 65432))
+mysock.bind((HOST, 65432))
 mysock.listen(5)
 print ("Ready to serve")
 conn, addr = mysock.accept()
