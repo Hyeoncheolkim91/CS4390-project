@@ -9,3 +9,5 @@ Run the codes by following order:
 After running all three entities,  you can command at controller side. Enter ‘list’ to see the contents in your default folder. Then, use following syntax to request streaming session to server. 
 Play <filename.txt>
 You can command ‘pause’ to pause streaming, ‘resume’ to resume streaming from the location you paused. To play from the beginning, you can use same syntax ‘Play <filename.txt>’. When you send a command to play, it will play from the beginning of the file regardless of the current state of streaming session.
+
+[Video description](https://www.youtube.com/watch?v=4FKG9vM5Bvg&feature=youtu.be).
