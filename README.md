@@ -1,5 +1,5 @@
 # Rendering system for text file
-This project is about designing an application layer protocol for rendering basic text files by implementing 3 network entities which are controller(C), Renderer(R), and server(S). This protocol was developed on school term of summer of 2019, at University of Texas at Dallas for CS4390.0U2: Computer Networks class.
+This project is about designing an application layer protocol for rendering basic text files by implementing 3 network entities which are controller(C), Renderer(R), and server(S). 
 To render text files, you need to install python; I used version 3.7(64bits). Make sure all python files in the same folder and place your text files into ‘serverData folder’ or you can default your own folder. Then for Windows users, open terminal and change directory where you downloaded the codes. For testing you can use multiple terminal or use ‘mininet’ to implement it on different hosts.
 Run the codes by following order: 
 1.	Server
